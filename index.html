@@ -10,6 +10,19 @@
   </head>
   <body>
     <h1>Your Name Here</h1>
+    <style>
+      h1{
+        text-align: center;
+        color: yellowgreen;
+      }
+      p{
+        text-align: left;
+        height: 50px;
+        
+        
+      }
+    
+    </style>
     <div>
       <p>
         This is a bunch of information about myself. I'm from here and there and
@@ -19,29 +32,56 @@
     </div>
 
     <img src="./assets/avatar-gfe7eab2c5_640.png" alt="Profile photo" />
-
+    <style>
+     img{
+      border-radius: 20%;
+      height: 50px;
+      position: absolute;
+      top:250px;
+      right: 250px;
+     }
+     li{
+      list-style: none;
+      border: solid;
+      border-radius: 50px 50px 50px 50px;
+      box-sizing: border-box;
+     
+     }
+    </style>
     <div>
       <h2>Here are some of my Skills!</h2>
 
       <h3 class="languages">Languages</h3>
       <ul>
+        <div class="list">
         <li>JavaScript</li>
         <li>SQL</li>
         <li>HTML5</li>
         <li>CSS3</li>
+      </div>
       </ul>
+      <style>
+        li{
+         border-color: rgb(215, 215, 37);
+         border-width: 10px;
+         text-align: center;
+         box-sizing: content-box;
+        }
+      </style>
 
       <h3>Libraries</h3>
       <ul class="libraries">
+        <div class="list-2">
         <li>React</li>
         <li>Node</li>
         <li>Bootstrap</li>
+      </div>
       </ul>
     </div>
 
     <div>
       <h2>Hardest Bug So Far</h2>
-      <p>
+      <p class="text">
         My hardest bug I ever came across was this infinite loop I couldn't
         escape.
       </p>
@@ -49,10 +89,12 @@
     </div>
 
     <ul class="links">
+      <div class="links">
       <li><a href="#">github link</a></li>
       <li><a href="#">LinkedIn link</a></li>
       <li><a href="#">Angel list link</a></li>
       <li><a href="#">Pursuit link</a></li>
+    </div>
     </ul>
 
     <footer>
